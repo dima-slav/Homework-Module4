@@ -5,13 +5,13 @@ package Module_4;
  */
 public abstract class Bank {
 
-    long id;
-    String bankCountry;
-    Currency currency;
-    int numberOfEmployee;
-    double avrSalaryOfEmployee;
-    long rating;
-    long totalCapital;
+   private long id;
+    private String bankCountry;
+   private  Currency currency;
+   private int numberOfEmployee;
+   private double avrSalaryOfEmployee;
+   private long rating;
+   private long totalCapital;
 
     public Bank ( long id, String bankCountry, Currency currency,
                   int numberOfEmployee, double avrSalaryOfEmployee, long rating,
